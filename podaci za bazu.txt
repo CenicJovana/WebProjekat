@@ -1,0 +1,1 @@
+INSERT INTO Knjizara VALUES ('Ivo Andric', Bore Stankovica 3');
