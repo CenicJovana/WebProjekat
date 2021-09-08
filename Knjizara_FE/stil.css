@@ -1,0 +1,122 @@
+.info {
+  text-align: center;
+  color: rgb(2, 36, 92);
+  font-style: italic;
+  font-weight:800;
+  font-size: 30px;
+}
+.velikiDiv{
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  border-bottom: 5px solid rgb(1, 19, 48);
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(189,221,255);
+}
+.divInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 8;
+}
+.kontKnjizara,
+.rafForme {
+  display: flex;
+  flex-direction: column;
+}
+.kontRaf {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 10px;
+}
+.red{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.divZaCrtanje {
+  display: flex;
+  flex-grow: 8;
+
+}
+.divZaCrtanje,
+.knjiga {
+  flex-direction: column;
+}
+.divZaCrtanje,
+.rafForme {
+  background-color: white;
+}
+.knjiga {
+  border: 1px solid black;
+  flex: 1 0 130px;
+  margin: 3px;
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+}
+.formaRaf {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+  min-width: 220px;
+  align-self: center;
+  border: 1px solid black;
+  background-size: 100% 100%;
+  flex-grow: 1;
+  background-color: white;
+}
+
+.fDodaj,
+.fIzmeni {
+  border: 2px groove black;
+  padding: 5px;
+  margin-bottom: 3px;
+  flex-grow: 1;
+  min-width: 220px;
+}
+.nazivForme {
+  font-style: italic;
+  font-size: larger;
+  align-self: center;
+  margin-bottom: 5px;
+}
+.dugme {
+  margin-top: 20px;
+  width: 100%;
+  align-self: center;
+}
+.knjiga {
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+}
+select {
+  margin: 5px;
+}
+.dugmeInfo {
+  width: 100%;
+  height: 15%;
+  justify-self:flex-end;
+}
+.naslov {
+  font-size: 90%;
+  font-weight: bold;
+}
+.nazivRafa {
+  color:rgb(27, 46, 168);
+  background-color: white;
+}
+.kontBiblioteka {
+  background-size: 100% 350px;
+  background-repeat: repeat-y;
+}
+.divLab{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+}

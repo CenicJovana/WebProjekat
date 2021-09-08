@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\CENA\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\CENA\\.nuget\\packages"
+    ]
+  }
+}
